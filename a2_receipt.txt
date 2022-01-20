@@ -1,0 +1,1550 @@
+============================================
+vis/lachen1.OUTt2-out-1.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of connected subnetworks is: 2
+============================================
+vis/lachen1.OUTt7-out-h1.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+The critical servers are: 1 2 3 4
+============================================
+vis/lachen1.OUTt3-out-1.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of servers in the largest subnetwork is: 10
+The servers in the largest subnetwork are: 4 5 6 7 8 9 10 11 12 13
+============================================
+vis/lachen1.OUTt7-out-1.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+The critical servers are: 0 4 10
+============================================
+vis/lachen1.OUTt4-out-1.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+After the outage, the largest diameter in any of the subnetworks is: 3
+The path is: 8 10 11 13
+============================================
+vis/lachen1.OUTt4-out-h2.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+After the outage, the largest diameter in any of the subnetworks is: 1
+The path is: 4 5
+============================================
+vis/lachen1.OUTt2-out-h1.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of connected subnetworks is: 1
+============================================
+vis/lachen1.OUTt3-out-h2.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of servers in the largest subnetwork is: 7
+The servers in the largest subnetwork are: 0 1 2 3 4 5 6
+============================================
+vis/lachen1.OUTt4-out-3.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+After the outage, the largest diameter in any of the subnetworks is: 1
+The path is: 3 4
+============================================
+vis/lachen1.OUTt4-out-4.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+After the outage, the largest diameter in any of the subnetworks is: 2
+The path is: 0 1 2
+============================================
+vis/lachen1.OUTt7-out-3.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+The critical servers are: 
+============================================
+vis/lachen1.OUTt7-out-4.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+The critical servers are: 1 4
+============================================
+vis/lachen1.OUTt2-out-h2.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of connected subnetworks is: 1
+============================================
+vis/lachen1.OUTt3-out-h1.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of servers in the largest subnetwork is: 6
+The servers in the largest subnetwork are: 0 1 2 3 4 5
+============================================
+vis/TESTING
+15:12:45_Wednesday_26_May_2021
+============================================
+
+Test task2 ../data/network-1.txt < ../data/outage-1.txt passed
+Test task2 ../data/network-2.txt < ../data/outage-2.txt passed
+Test task2 ../data/network-3.txt < ../data/outage-3.txt passed
+Test task2 ../data/network-4.txt < ../data/outage-4.txt passed
+Test task2 ../data/network-h1.txt < ../data/outage-h1.txt passed
+Test task2 ../data/network-h2.txt < ../data/outage-h2.txt passed
+Test task3 ../data/network-1.txt < ../data/outage-1.txt passed
+Test task3 ../data/network-2.txt < ../data/outage-2.txt passed
+Test task3 ../data/network-3.txt < ../data/outage-3.txt passed
+Test task3 ../data/network-4.txt < ../data/outage-4.txt passed
+Test task3 ../data/network-h1.txt < ../data/outage-h1.txt passed
+Test task3 ../data/network-h2.txt < ../data/outage-h2.txt passed
+Test task4 ../data/network-1.txt < ../data/outage-1.txt passed
+Test task4 ../data/network-2.txt < ../data/outage-2.txt passed
+Test task4 ../data/network-3.txt < ../data/outage-3.txt passed
+Test task4 ../data/network-4.txt < ../data/outage-4.txt passed
+Test task4 ../data/network-h1.txt < ../data/outage-h1.txt passed
+Test task4 ../data/network-h2.txt < ../data/outage-h2.txt passed
+Test task7 ../data/network-1.txt < ../data/outage-1.txt passed
+Test task7 ../data/network-2.txt < ../data/outage-2.txt passed
+Test task7 ../data/network-3.txt < ../data/outage-3.txt passed
+Test task7 ../data/network-4.txt < ../data/outage-4.txt passed
+Test task7 ../data/network-h1.txt < ../data/outage-h1.txt passed
+Test task7 ../data/network-h2.txt < ../data/outage-h2.txt passed
+task2: 4 / 4 seen   tests passed
+task2: 2 / 2 hidden tests passed
+task3: 4 / 4 seen   tests passed
+task3: 2 / 2 hidden tests passed
+task4: 4 / 4 seen   tests passed
+task4: 2 / 2 hidden tests passed
+task7: 4 / 4 seen   tests passed
+task7: 2 / 2 hidden tests passed
+============================================
+vis/lachen1.OUTt4-out-h1.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+After the outage, the largest diameter in any of the subnetworks is: 2
+The path is: 3 4 5
+============================================
+vis/lachen1.OUTt3-out-4.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of servers in the largest subnetwork is: 4
+The servers in the largest subnetwork are: 3 4 5 6
+============================================
+vis/COMPILE
+15:12:45_Wednesday_26_May_2021
+============================================
+Compiling task2 with makefile...
+gcc -c task2.c -Wall -g
+gcc -c utils.c -Wall -g
+gcc -c graph.c -Wall -g
+gcc -c pq.c -Wall -g
+gcc -c list.c -Wall -g
+gcc -Wall -o task2 -g task2.o utils.o graph.o pq.o list.o -lm
+
+Compiling task3 with makefile...
+gcc -c task3.c -Wall -g
+gcc -c utils.c -Wall -g
+gcc -c graph.c -Wall -g
+gcc -c pq.c -Wall -g
+gcc -c list.c -Wall -g
+gcc -Wall -o task3 -g task3.o utils.o graph.o pq.o list.o -lm
+
+Compiling task4 with makefile...
+gcc -c task4.c -Wall -g
+gcc -c utils.c -Wall -g
+gcc -c graph.c -Wall -g
+gcc -c pq.c -Wall -g
+gcc -c list.c -Wall -g
+gcc -Wall -o task4 -g task4.o utils.o graph.o pq.o list.o -lm
+
+Compiling task7 with makefile...
+gcc -c task7.c -Wall -g
+gcc -c utils.c -Wall -g
+gcc -c graph.c -Wall -g
+gcc -c pq.c -Wall -g
+gcc -c list.c -Wall -g
+gcc -Wall -o task7 -g task7.o utils.o graph.o pq.o list.o -lm
+============================================
+vis/lachen1.OUTt3-out-3.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of servers in the largest subnetwork is: 5
+The servers in the largest subnetwork are: 0 1 2 3 4
+============================================
+vis/lachen1.OUTt2-out-4.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of connected subnetworks is: 2
+============================================
+vis/lachen1.OUTt2-out-3.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of connected subnetworks is: 2
+============================================
+vis/lachen1.OUTt7-out-2.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+The critical servers are: 
+============================================
+vis/lachen1.OUTt4-out-2.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+After the outage, the largest diameter in any of the subnetworks is: 2
+The path is: 0 1 2
+============================================
+vis/lachen1.OUTt2-out-2.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of connected subnetworks is: 1
+============================================
+vis/lachen1.OUTt3-out-2.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+Before the outage, the number of servers in the largest subnetwork is: 8
+The servers in the largest subnetwork are: 0 1 2 3 4 5 6 7
+============================================
+vis/lachen1.OUTt7-out-h2.txt
+15:12:45_Wednesday_26_May_2021
+============================================
+The critical servers are: 1 4
+============================================
+src/task2.c
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+task2.c
+
+Driver function for Problem 1 Task 2.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 2 2021
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+#include "utils.h"
+#include "graph.h"
+
+int main(int argc, char **argv){
+  if(argc < 2){
+    fprintf(stderr, "Run in the form %s tests/network-t2-1 < outage-t2-1.txt\n",
+      argv[0]);
+    exit(EXIT_FAILURE);
+  }
+  /* Read the problem in from stdin (outage info) and argv[1] (network info). */
+  FILE *networkFile = fopen(argv[1], "r");
+  assert(networkFile);
+  struct graphProblem *problem = readProblem(stdin, networkFile);
+  assert(fclose(networkFile) == 0);
+
+  /* Find the solution to the problem. */
+  struct solution *solution = findSolution(problem, TASK_2);
+
+  /* Report solution */
+  printf("Before the outage, the number of connected subnetworks is: %d\n",
+    solution->connectedSubnets);
+
+  freeProblem(problem);
+  freeSolution(solution);
+
+  return 0;
+}
+
+============================================
+src/task3.c
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+task2.c
+
+Driver function for Problem 1 Task 3.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 2 2021
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+#include "utils.h"
+#include "graph.h"
+
+int main(int argc, char **argv){
+  if(argc < 2){
+    fprintf(stderr, "Run in the form %s tests/network-t3-1 < outage-t3-1.txt\n",
+      argv[0]);
+    exit(EXIT_FAILURE);
+  }
+  /* Read the problem in from stdin (outage info) and argv[1] (network info). */
+  FILE *networkFile = fopen(argv[1], "r");
+  assert(networkFile);
+  struct graphProblem *problem = readProblem(stdin, networkFile);
+  assert(fclose(networkFile) == 0);
+
+  /* Find the solution to the problem. */
+  struct solution *solution = findSolution(problem, TASK_3);
+
+  /* Report solution */
+  printf("Before the outage, the number of servers in the largest subnetwork is"
+         ": %d\n", solution->largestSubnet);
+  printf("The servers in the largest subnetwork are: ");
+  int i;
+  for(i = 0; i < solution->largestSubnet; i++){
+    printf("%d", (solution->largestSubnetSIDs)[i]);
+    if((i + 1) < solution->largestSubnet){
+      printf(" ");
+    }
+  }
+  printf("\n");
+
+  freeProblem(problem);
+  freeSolution(solution);
+
+  return 0;
+}
+
+============================================
+src/graph.c
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+graph.c
+
+Set of vertices and edges implementation.
+
+Implementations for helper functions for graph construction and manipulation.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 1 2021
+*/
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include "graph.h"
+#include "utils.h"
+#include "pq.h"
+#include <math.h>
+
+#define INITIALEDGES 32
+
+struct edge;
+
+/* Definition of a graph. */
+struct graph {
+  int numVertices;
+  int numEdges;
+  int allocedEdges;
+  struct edge **edgeList;
+};
+
+/* Definition of an edge. */
+struct edge {
+  int start;
+  int end;
+};
+
+void swap(int*, int*);
+
+void insertion_sort(int*, int);
+
+void preprocess(int*,int*, int, int, int, int*, int*);
+
+void diekstra(int*, int, int*, int, int*, int*, int);
+
+void
+swap(int*p1, int*p2){
+	int tmp;
+	tmp = *p1;
+	*p1 = *p2;
+	*p2 = tmp;
+}
+
+void
+insertion_sort(int final[],int currmax){
+	int i, j;
+	
+    for (i=0; i < currmax; i++){
+    	j = i-1;
+    	while ((j>=0) && final[j+1] < final[j]){
+    		swap(&final[j], &final[j+1]);
+    		j--;
+    	}
+    }
+}
+
+struct graph *newGraph(int numVertices){
+  struct graph *g = (struct graph *) malloc(sizeof(struct graph));
+  assert(g);
+  /* Initialise edges. */
+  g->numVertices = numVertices;
+  g->numEdges = 0;
+  g->allocedEdges = 0;
+  g->edgeList = NULL;
+  return g;
+}
+
+/* Adds an edge to the given graph. */
+void addEdge(struct graph *g, int start, int end){
+  assert(g);
+  struct edge *newEdge = NULL;
+  /* Check we have enough space for the new edge. */
+  if((g->numEdges + 1) > g->allocedEdges){
+    if(g->allocedEdges == 0){
+      g->allocedEdges = INITIALEDGES;
+    } else {
+      (g->allocedEdges) *= 2;
+    }
+    g->edgeList = (struct edge **) realloc(g->edgeList,
+      sizeof(struct edge *) * g->allocedEdges);
+    assert(g->edgeList);
+  }
+
+  /* Create the edge */
+  newEdge = (struct edge *) malloc(sizeof(struct edge));
+  assert(newEdge);
+  newEdge->start = start;
+  newEdge->end = end;
+
+  /* Add the edge to the list of edges. */
+  g->edgeList[g->numEdges] = newEdge;
+  (g->numEdges)++;
+}
+
+/* Frees all memory used by graph. */
+void freeGraph(struct graph *g){
+  int i;
+  for(i = 0; i < g->numEdges; i++){
+    free((g->edgeList)[i]);
+  }
+  if(g->edgeList){
+    free(g->edgeList);
+  }
+  free(g);
+}
+
+/* Finds:
+  - Number of connected subnetworks (before outage) (Task 2)
+  - Number of servers in largest subnetwork (before outage) (Task 3)
+  - SIDs of servers in largest subnetwork (before outage) (Task 3)
+  - Diameter of largest subnetworks (after outage) (Task 4)
+  - Number of servers in path with largest diameter - should be one more than
+    Diameter if a path exists (after outage) (Task 4)
+  - SIDs in path with largest diameter (after outage) (Task 4)
+  - Number of critical servers (before outage) (Task 7)
+  - SIDs of critical servers (before outage) (Task 7)
+*/
+struct solution *graphSolve(struct graph *g, enum problemPart part,
+  int numServers, int numOutages, int *outages){
+  struct solution *solution = (struct solution *)
+    malloc(sizeof(struct solution));
+  assert(solution);
+  /* Initialise solution values */
+  initaliseSolution(solution);
+  if(part == TASK_2){
+    /* IMPLEMENT TASK 2 SOLUTION HERE */
+    int marker = 0, subnetworks = 0, i, j, c, strt, en, stackcontrol=0;
+    int *inserted, *Marked, *M, *stack;
+    	
+    inserted = (int*)malloc(sizeof(int)*numServers);
+    Marked = (int*)malloc(sizeof(int)*numServers);
+    M = (int*)malloc(sizeof(int)*numServers*numServers);
+    stack = (int*)malloc(sizeof(int)*numServers);
+    
+    if (numServers != 0){
+    	subnetworks = 1;
+    }
+    
+    for (i=0; i<numServers; i++){
+    	Marked[i] = 0;	
+    	stack[i] = -1;
+    	inserted[i] = 0;
+    }
+    
+    /* initiate the adjacency matrix */
+    for (i=0; i<numServers*numServers; i++){
+    	M[i] = 0;
+    }
+
+    /* setup the adjacency matrix */
+    for (i=0; i<g->numEdges; i++){
+    	strt = g->edgeList[i]->start;
+    	en = g->edgeList[i]->end;
+    	M[strt*numServers+en] = 1;
+    	M[en*numServers+strt] = 1;
+    }
+    
+    stack[0] = 0;
+    inserted[0] = 1;
+    
+    while (marker != numServers){
+    	if (stackcontrol < 0) {
+    		subnetworks++;
+    		for (j=0; j<numServers; j++){
+    			if (Marked[j] == 0){
+    				c = j;
+    				inserted[c] = 1;
+    				break;
+    			}
+    		}
+    	} else {
+    		c = stack[stackcontrol];
+    		stack[stackcontrol] = -1;
+    		stackcontrol--;
+    	}
+    	
+    	marker ++;
+    	Marked[c] = marker;
+
+    	for (j=c*numServers; j < (c+1)*numServers; j++){
+    		if (M[j] == 1 && inserted[j%numServers] ==0){
+    			stackcontrol++;
+    			stack[stackcontrol]=(j%numServers);
+    			inserted[j%numServers] = 1;
+    		}
+    	}
+    }
+    
+    solution->connectedSubnets = subnetworks;
+    
+    free(Marked);
+    free(inserted);
+    free(stack);
+    free(M);
+    
+  } else if(part == TASK_3) {
+    /* IMPLEMENT TASK 3 SOLUTION HERE */
+    int marker = 0, i, j, c, strt, en, stackcontrol=0,
+    	count=0, currmax=0, *Marked, *M, *stack, *inserted, *final, *order;
+    
+    Marked = (int*)malloc(sizeof(int)*numServers);
+    M = (int*)malloc(sizeof(int)*numServers*numServers);
+	stack = (int*)malloc(sizeof(int)*numServers);
+	inserted = (int*)malloc(sizeof(int)*numServers);
+	final = (int*)malloc(sizeof(int)*numServers);
+    order = (int*)malloc(sizeof(int)*numServers);
+    	
+    for (i=0; i<numServers; i++){
+    	Marked[i] = 0;	
+    	stack[i] = -1;
+    	inserted[i] = 0;
+    	final[i]=0;
+    	order[i]=0;
+    }
+    
+    /* initiate the adjacency matrix */
+    for (i=0; i<numServers*numServers; i++){
+    	M[i] = 0;
+    }
+
+    /* setup the adjacency matrix */
+    for (i=0; i<g->numEdges; i++){
+    	strt = g->edgeList[i]->start;
+    	en = g->edgeList[i]->end;
+    	M[strt*numServers+en] = 1;
+    	M[en*numServers+strt] = 1;
+    }
+    
+    stack[0] = 0;
+    inserted[0] = 1;
+    
+    while (marker != numServers){
+    	if (stackcontrol < 0) {
+    		if (count > currmax){
+    			currmax = count;
+    			j=0;
+    			for (i= marker-count; i<marker; i++){
+    				final[j] = order[i];
+    				j++;
+    			}
+    		}
+    		count=0;
+    		for (j=0; j<numServers; j++){
+    			if (Marked[j] == 0){
+    				c = j;
+    				inserted[c] = 1;
+    				break;
+    			}
+    		}
+    	} else {
+    		c = stack[stackcontrol];
+    		stack[stackcontrol] = -1;
+    		stackcontrol--;
+    	}
+    	
+    	count++;
+    	order[marker] = c;
+    	marker++;
+    	Marked[c] = marker;
+    	
+    	for (j=c*numServers; j < (c+1)*numServers; j++){
+    		if (M[j] == 1 && inserted[j%numServers] ==0){
+    			stackcontrol++;
+    			stack[stackcontrol]=(j%numServers);
+    			inserted[j%numServers] = 1;
+    		}
+    	}
+    }
+    if (count > currmax){
+    	currmax = count;
+    	j=0;
+    	for (i= marker-count; i<marker; i++){
+    		final[j] = order[i];
+    		j++;
+    	}
+    }
+    
+    insertion_sort(final,currmax);
+    
+    solution->largestSubnet = currmax;
+    solution->largestSubnetSIDs = final;
+    
+    free(Marked);
+    free(M);
+    free(stack);
+    free(inserted);
+    free(order);
+    
+  } else if(part == TASK_4) {
+    /* IMPLEMENT TASK 4 SOLUTION HERE */
+     int marker = 0, i, j, c, strt, en, stackcontrol=0, tmp,
+    	count=0, globmax=0, *Marked, *M, *stack, *inserted, *final, *order;
+    
+    Marked = (int*)malloc(sizeof(int)*numServers);
+    M = (int*)malloc(sizeof(int)*numServers*numServers);
+	stack = (int*)malloc(sizeof(int)*numServers);
+	inserted = (int*)malloc(sizeof(int)*numServers);
+	final = (int*)malloc(sizeof(int)*numServers);
+    order = (int*)malloc(sizeof(int)*numServers);
+    	
+    for (i=0; i<numServers; i++){
+    	Marked[i] = 0;	
+    	stack[i] = -1;
+    	inserted[i] = 0;
+    	final[i]=0;
+    	order[i]=0;
+    }
+    
+    /* initiate the adjacency matrix */
+    for (i=0; i<numServers*numServers; i++){
+    	M[i] = 0;
+    }
+
+    /* setup the adjacency matrix */
+    for (i=0; i<g->numEdges; i++){
+    	strt = g->edgeList[i]->start;
+    	en = g->edgeList[i]->end;
+    	M[strt*numServers+en] = 1;
+    	M[en*numServers+strt] = 1;
+    }
+    
+    for (i=0; i<numOutages; i++){
+    	tmp = outages[i];
+    	inserted[tmp]=1;
+    	Marked[tmp]=-1;
+    	
+    	for (j=tmp*numServers; j<(tmp+1)*numServers; j++){
+    		M[j] = 0;	
+    	}
+    	for (j=0; j<numServers; j++){
+    		M[j*numServers+tmp] = 0;	
+    	}
+    }
+
+    for (i=0; i<numServers; i++){
+    	if 	(Marked[i] == 0){
+    		/*printf("%d\n", i);*/
+    		stack[0] = i;
+    		inserted[i] = 1;
+    		break;
+    	}
+    }
+    		
+    while (marker != numServers-numOutages){
+    	if (stackcontrol < 0) {
+    		
+    		preprocess(M, order, count, marker, numServers, final, &globmax);
+
+    		count=0;
+    		for (j=0; j<numServers; j++){
+    			if (Marked[j] == 0){
+    				c = j;
+    				inserted[c] = 1;
+    				break;
+    			}
+    		}
+  
+    	} else {
+    		c = stack[stackcontrol];
+    		stack[stackcontrol] = -1;
+    		stackcontrol--;
+    	}
+    	
+    	count++;
+    	order[marker] = c;
+    	marker++;
+    	Marked[c] = marker;
+    	
+    	for (j=c*numServers; j < (c+1)*numServers; j++){
+    		if (M[j] == 1 && inserted[j%numServers] ==0){
+    			stackcontrol++;
+    			stack[stackcontrol]=(j%numServers);
+    			inserted[j%numServers] = 1;
+    		}
+    	}
+    }
+    
+    preprocess(M, order, count, marker, numServers, final, &globmax);
+    
+    solution->postOutageDiameter = globmax;
+    solution->postOutageDiameterCount = globmax+1;
+    solution->postOutageDiameterSIDs = final;
+    
+    free(Marked);
+    free(M);
+    free(stack);
+    free(inserted);
+    free(order);
+    
+  } else if(part == TASK_7) {
+    /* IMPLEMENT TASK 7 SOLUTION HERE */
+    int marker = 0, i, j, c, strt, en, stackcontrol=0, pushorder = 0, 
+    	ncrit = 0, count = 0, prev, *Marked, *M, *stack, *PO, *final, *order, 
+    	*daddy, *sons, *HRA;
+    
+    Marked = (int*)malloc(sizeof(int)*numServers);
+    M = (int*)malloc(sizeof(int)*numServers*numServers);
+	stack = (int*)malloc(sizeof(int)*numServers);
+	PO = (int*)malloc(sizeof(int)*numServers);
+	final = (int*)malloc(sizeof(int)*numServers);
+    order = (int*)malloc(sizeof(int)*numServers);
+    daddy = (int*)malloc(sizeof(int)*numServers);
+    sons =  (int*)malloc(sizeof(int)*numServers);
+    HRA = (int*)malloc(sizeof(int)*numServers);
+    	
+    for (i=0; i<numServers; i++){
+    	Marked[i] = 0;	
+    	stack[i] = -1;
+    	PO[i] = -1;
+    	final[i] = 0;
+    	order[i] = 0;
+    	sons[i] = 0;
+    	daddy[i] = -1;
+    	HRA[i] = -1;
+    }
+    
+    /* initiate the adjacency matrix */
+    for (i=0; i<numServers*numServers; i++){
+    	M[i] = 0;
+    }
+
+    /* setup the adjacency matrix */
+    for (i=0; i<g->numEdges; i++){
+    	strt = g->edgeList[i]->start;
+    	en = g->edgeList[i]->end;
+    	M[strt*numServers+en] = 1;
+    	M[en*numServers+strt] = 1;
+    }
+    
+    stack[0] = 0;
+    PO[0] = pushorder;
+    pushorder++;
+    
+    while (marker != numServers){
+    	if (stackcontrol < 0) {
+    		for (i= marker-1; i>=marker-count; i--){
+				for (j=0; j<numServers; j++){
+					if (daddy[j] == order[i] && PO[HRA[order[i]]] > PO[HRA[j]]){
+						HRA[order[i]] = HRA[j];
+					}
+				}
+			}
+			
+    		for (i=marker-count; i<marker; i++){
+    			if (daddy[order[i]] != -1){
+					sons[daddy[order[i]]]++;
+
+				}
+    		}
+    		
+    		for (i=marker-count; i<marker; i++){
+				if (i == marker-count){
+					if (sons[order[i]]>1){
+						final[ncrit] = order[i];
+						ncrit++;
+					}
+				} else if (sons[order[i]] != 0){
+					for (j=0; j<numServers; j++){
+						if (daddy[j] == order[i] && PO[HRA[j]] >= PO[order[i]]){
+							final[ncrit] = order[i];
+							ncrit++;
+						}
+					}
+				}
+			}
+    		
+    		count = 0;
+    		for (j=0; j<numServers; j++){
+    			if (Marked[j] == 0){
+    				c = j;
+    				PO[c] = pushorder;
+    				pushorder++;
+    				break;
+    			}
+    		}
+    	} else {
+    		c = stack[stackcontrol];
+    		stack[stackcontrol] = -1;
+    		stackcontrol--;
+    	}
+    	
+    	
+    	
+    	count++;
+    	order[marker] = c;
+    	
+    	marker++;
+    	
+    	Marked[c] = marker;
+    	HRA[c] = c;
+    	
+    	for (j=c*numServers; j < (c+1)*numServers; j++){
+    		if (M[j] == 1 && Marked[j%numServers] == 0){
+    			if (PO[j%numServers] ==-1){
+					stackcontrol++;
+					stack[stackcontrol]=(j%numServers);
+					PO[j%numServers] = pushorder;
+					pushorder++;
+					daddy[j%numServers] = c;
+				} else{
+					daddy[j%numServers] = c;
+				}
+    		}
+    		if (M[j] == 1 && Marked[j%numServers] != 0){
+    			if (j%numServers != prev && Marked[ HRA[c] ] > Marked[j%numServers]){
+    				HRA[c] = j%numServers; 
+    			}
+    		}
+    	}
+    	prev = c;
+    }
+    
+    for (i= marker-1; i>=marker-count; i--){
+		for (j=0; j<numServers; j++){
+   			if (daddy[j] == order[i] && PO[HRA[order[i]]] > PO[HRA[j]]){
+   				HRA[order[i]] = HRA[j];
+			}
+  		}	
+   	}
+   	
+    for (i=marker-count; i<marker; i++){
+    	if (daddy[order[i]] != -1){
+			sons[daddy[order[i]]]++;
+		}
+    }
+    
+    for (i=marker-count; i<marker; i++){
+    	if (i == marker-count){
+    		if (sons[order[i]]>1){
+    			final[ncrit] = order[i];
+    			ncrit++;
+    		}
+    	} else if (sons[order[i]] != 0){
+    		for (j=0; j<numServers; j++){
+    			if (daddy[j] == order[i] && PO[HRA[j]] >= PO[order[i]]){
+    				final[ncrit] = order[i];
+    				ncrit++;
+    			}
+    		}
+    	}
+    }
+    
+    solution->criticalServerCount = ncrit;
+    solution->criticalServerSIDs = final;
+    
+    free(Marked);
+    free(M);
+    free(stack);
+    free(PO);
+    free(order);
+    free(daddy);
+    free(sons);
+    free(HRA);
+    
+  }
+  return solution;
+}
+
+
+
+void 
+preprocess(int M[], int order[], int count, int marker, int numServers, int final[], int *globmax){
+    int i, j, localmax=0;
+    int *subnetwork, *localarr;
+    
+    subnetwork = (int*)malloc(sizeof(int)*count);
+    localarr = (int*)malloc(sizeof(int)*count);
+    			    			
+    for (i=0; i<count; i++){
+    	localarr[i]=0;
+    }
+    			
+    j=0;
+    for (i=marker-count; i<marker; i++){
+    	subnetwork[j] = order[i];
+    	j++;
+    }
+    insertion_sort(subnetwork, count);
+    
+    for (i=0; i<count; i++){
+    	diekstra(M, count, subnetwork, numServers, &localmax, localarr, i);
+    }
+    if (localmax > *globmax){
+    	*globmax = localmax;
+    	for (i=0; i<=localmax; i++){
+    		final[i] = localarr[i];	
+    	}
+    }
+}
+
+void diekstra(int M[], int count, int subnetwork[], int numServers, int *localmax, int localarr[], int index){
+    int *tick, *last, *currval, *newsubnetwork;
+    int i, j, c, counter=1, max=0, currmaxindex, currindex=0;
+    
+    tick = (int*)malloc(sizeof(int)*count);
+    last = (int*)malloc(sizeof(int)*count);
+    currval = (int*)malloc(sizeof(int)*count);
+    newsubnetwork = (int*)malloc(sizeof(int)*count);
+    					
+    for (i=0; i<count; i++){
+    	tick[i] = 0;
+    	last[i] = -1;
+    	currval[i] = INT_MAX;
+   	}
+   	
+   	for (i=0; i<count; i++){
+    	newsubnetwork[i] = subnetwork[i];
+    }
+   	
+	swap(&newsubnetwork[0], &newsubnetwork[index]); 
+    c = newsubnetwork[0];
+    tick[0] = 1;
+    currval[0] = 0;
+					
+    while (counter != count){
+    	for (i=0; i<count; i++){
+    		if ((M[c*numServers + newsubnetwork[i]] == 1) && (tick[i] == 0) && 
+    			(currval[currindex]+1<currval[i])){
+    			currval[i] = currval[currindex]+ 1;
+    			last[i] = c;	
+    		}
+    	}
+    					
+    	for (i=0; i<count; i++){
+    		if ((tick[i]==0) && (last[i] != -1)){
+    			c = newsubnetwork[i];
+    			currindex = i;
+    			tick[i] = 1;
+    			break;
+    		}
+    	}
+    	counter++;
+    }
+    				
+    for (i=0; i<count; i++){
+    	if (currval[i]>max){
+    		max = currval[i];
+    		currmaxindex = i;
+    	}
+    }
+
+	if (max > *localmax){	
+		*localmax = max;
+		localarr[max]=newsubnetwork[currmaxindex];
+    	for (i=max-1; i>-1; i--){
+			localarr[i] = last[currmaxindex];
+			
+			for (j=0; j<count; j++){
+				if (newsubnetwork[j] == last[currmaxindex]){
+					currmaxindex = j;
+					break;
+				}
+			}
+		}
+	
+	}
+}
+
+============================================
+src/Makefile
+15:12:44_Wednesday_26_May_2021
+============================================
+# Build targets
+# lm - link math library library. required if you use math.h functions (commonly
+# linked by default on mac).
+task2: task2.o utils.o graph.o pq.o list.o
+	gcc -Wall -o task2 -g task2.o utils.o graph.o pq.o list.o -lm
+
+task3: task3.o utils.o graph.o pq.o list.o
+	gcc -Wall -o task3 -g task3.o utils.o graph.o pq.o list.o -lm
+
+task4: task4.o utils.o graph.o pq.o list.o
+	gcc -Wall -o task4 -g task4.o utils.o graph.o pq.o list.o -lm
+
+task7: task7.o utils.o graph.o pq.o list.o
+	gcc -Wall -o task7 -g task7.o utils.o graph.o pq.o list.o -lm
+
+task2.o: task2.c graph.h utils.h
+	gcc -c task2.c -Wall -g
+
+task3.o: task3.c graph.h utils.h
+	gcc -c task3.c -Wall -g
+
+task4.o: task4.c graph.h utils.h
+	gcc -c task4.c -Wall -g
+
+task7.o: task7.c graph.h utils.h
+	gcc -c task7.c -Wall -g
+
+utils.o: utils.c utils.h graph.h
+	gcc -c utils.c -Wall -g
+
+graph.o: graph.c graph.h pq.h utils.h
+	gcc -c graph.c -Wall -g
+
+pq.o: pq.c pq.h
+	gcc -c pq.c -Wall -g
+
+list.o: list.c list.h
+	gcc -c list.c -Wall -g
+============================================
+src/utils.c
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+utils.c
+
+Implementations for helper functions to do with reading and writing.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 1 2021
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+#include "graph.h"
+#include "utils.h"
+
+struct graphProblem {
+  int numServers;
+  int numConnections;
+  int outageCount;
+  int *outageSIDs;
+  struct graph *graph;
+};
+
+struct graphProblem *readProblem(FILE *outageFile, FILE *networkFile){
+  int i;
+  int startServer;
+  int endServer;
+  /* Allocate space for problem specification */
+  struct graphProblem *problem = (struct graphProblem *)
+    malloc(sizeof(struct graphProblem));
+  assert(problem);
+
+  /* First line comprises number of servers and number of connections. */
+  assert(fscanf(networkFile, "%d %d", &(problem->numServers),
+    &(problem->numConnections)) == 2);
+
+  /* Build graph number of houses + 1 because of datacentre. */
+  problem->graph = newGraph(problem->numServers);
+  /* Add all edges to graph. */
+  for(i = 0; i < problem->numConnections; i++){
+    assert(fscanf(networkFile, "%d %d", &startServer, &endServer) == 2);
+    addEdge(problem->graph, startServer, endServer);
+  }
+
+  /* Read outage information. */
+  assert(fscanf(outageFile, "%d", &(problem->outageCount)) == 1);
+
+  problem->outageSIDs = (int *) realloc(NULL, sizeof(int) *
+    problem->outageCount);
+
+  /* Allow 0 outages for tasks 2, 3 and 7. */
+  if(problem->outageCount > 0){
+    assert(problem->outageSIDs);
+  }
+
+  for(i = 0; i < problem->outageCount; i++){
+    assert(fscanf(outageFile, "%d", &((problem->outageSIDs)[i])) == 1);
+  }
+
+  return problem;
+}
+
+struct solution *findSolution(struct graphProblem *problem,
+  enum problemPart part){
+  return graphSolve(problem->graph, part, problem->numServers,
+    problem->outageCount, problem->outageSIDs);
+}
+
+void freeProblem(struct graphProblem *problem){
+  /* No need to free if no data allocated. */
+  if(! problem){
+    return;
+  }
+  if(problem->outageSIDs){
+    free(problem->outageSIDs);
+  }
+  freeGraph(problem->graph);
+  free(problem);
+}
+
+void freeSolution(struct solution *solution){
+  /* No need to free if no data allocated. */
+  if(! solution){
+    return;
+  }
+  if(solution->largestSubnetSIDs){
+    free(solution->largestSubnetSIDs);
+  }
+  if(solution->postOutageDiameterSIDs){
+    free(solution->postOutageDiameterSIDs);
+  }
+  if(solution->criticalServerSIDs){
+    free(solution->criticalServerSIDs);
+  }
+  free(solution);
+}
+
+void initaliseSolution(struct solution *solution){
+  if(! solution){
+    return;
+  }
+  solution->connectedSubnets = 0;
+  solution->largestSubnet = 0;
+  solution->largestSubnetSIDs = NULL;
+  solution->postOutageDiameter = 0;
+  /* If a path exists, this should be one larger than the diameter. */
+  solution->postOutageDiameterCount = 0;
+  solution->postOutageDiameterSIDs = NULL;
+  solution->criticalServerCount = 0;
+  solution->criticalServerSIDs = NULL;
+}
+============================================
+src/list.h
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+list.h
+
+Visible structs and functions for linked lists.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 1 2021
+*/
+/* The linked list. */
+struct list;
+
+/* Get a new empty list. */
+struct list *newlist(void *item);
+
+/* Add an item to the head of the list. Returns the new list. */
+struct list *prependList(struct list *list, void *item);
+
+/* Gets the first item from the list. */
+void *peekHead(struct list *list);
+
+/* Takes the first item from the list, updating the list pointer and returns
+  the item stored. */
+void *deleteHead(struct list **list);
+
+/* Free all list items. */
+void freeList(struct list *list);
+============================================
+src/pq.h
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+pq.h
+
+Visible structs and functions for priority queues.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 1 2021
+*/
+/* The priority queue. */
+struct pq;
+
+/* Get a new empty priority queue. */
+struct pq *newPQ();
+
+/* Add an item to the priority queue - cast pointer to (void *). */
+void enqueue(struct pq *pq, void *item, int priority);
+
+/* Take the smallest item from the priority queue - cast pointer back to
+  original type. */
+void *deletemin(struct pq *pq);
+
+/* Returns 1 if empty, 0 otherwise. */
+int empty(struct pq *pq);
+
+/* Remove all items from priority queue (doesn't free) and free the queue. */
+void freePQ(struct pq *pq);
+============================================
+src/graph.h
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+graph.h
+
+Visible structs and functions for graph construction and manipulation.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 1 2021 and
+  modified for Assignment 2 2021
+*/
+
+/* Definition of a graph. */
+struct graph;
+
+enum problemPart;
+
+struct solution;
+
+/* A particular solution to a graph problem. */
+#ifndef SOLUTION_STRUCT
+#define SOLUTION_STRUCT
+struct solution {
+  int connectedSubnets;
+  int largestSubnet;
+  int *largestSubnetSIDs;
+  int postOutageDiameter;
+  int postOutageDiameterCount;
+  int *postOutageDiameterSIDs;
+  int criticalServerCount;
+  int *criticalServerSIDs;
+};
+#endif
+
+/* Which part the program should find a solution for. */
+#ifndef PART_ENUM
+#define PART_ENUM
+enum problemPart {
+  TASK_2=0,
+  TASK_3=1,
+  TASK_4=2,
+  TASK_7=3
+};
+#endif
+
+/* Creates an undirected graph with the given numVertices and no edges and
+returns a pointer to it. NumEdges is the number of expected edges. */
+struct graph *newGraph(int numVertices);
+
+/* Adds an edge to the given graph. */
+void addEdge(struct graph *g, int start, int end);
+
+/* Finds:
+  - Number of connected subnetworks (before outage) (Task 2)
+  - Number of servers in largest subnetwork (before outage) (Task 3)
+  - SIDs of servers in largest subnetwork (before outage) (Task 3)
+  - Diameter of largest subnetworks (after outage) (Task 4)
+  - Number of servers in path with largest diameter - should be one more than
+    Diameter if a path exists (after outage) (Task 4)
+  - SIDs in largest subnetwork (after outage) (Task 4)
+  - Number of critical servers (before outage) (Task 7)
+  - SIDs of critical servers (before outage) (Task 7)
+ */
+struct solution *graphSolve(struct graph *g, enum problemPart part,
+  int numServers, int numOutages, int *outages);
+
+/* Frees all memory used by graph. */
+void freeGraph(struct graph *g);
+
+/* Sets all values to initial values so free can work for all tasks without
+  change. */
+void initaliseSolution(struct solution *solution);
+
+/* Frees all data used by solution. */
+void freeSolution(struct solution *solution);
+
+
+
+============================================
+src/task4.c
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+task2.c
+
+Driver function for Problem 1 Task 3.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 2 2021
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+#include "utils.h"
+#include "graph.h"
+
+int main(int argc, char **argv){
+  if(argc < 2){
+    fprintf(stderr, "Run in the form %s tests/network-t4-1 < outage-t4-1.txt\n",
+      argv[0]);
+    exit(EXIT_FAILURE);
+  }
+  /* Read the problem in from stdin (outage info) and argv[1] (network info). */
+  FILE *networkFile = fopen(argv[1], "r");
+  assert(networkFile);
+  struct graphProblem *problem = readProblem(stdin, networkFile);
+  assert(fclose(networkFile) == 0);
+
+  /* Find the solution to the problem. */
+  struct solution *solution = findSolution(problem, TASK_4);
+
+  /* Report solution */
+  printf("After the outage, the largest diameter in any of the subnetworks is:"
+         " %d\n", solution->postOutageDiameter);
+  printf("The path is: ");
+  int i;
+  for(i = 0; i < solution->postOutageDiameterCount; i++){
+    printf("%d", (solution->postOutageDiameterSIDs)[i]);
+    if((i + 1) < solution->postOutageDiameterCount){
+      printf(" ");
+    }
+  }
+  printf("\n");
+
+  freeProblem(problem);
+  freeSolution(solution);
+
+  return 0;
+}
+
+============================================
+src/task7.c
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+task2.c
+
+Driver function for Problem 1 Task 3.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 2 2021
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+#include "utils.h"
+#include "graph.h"
+
+int main(int argc, char **argv){
+  if(argc < 2){
+    fprintf(stderr, "Run in the form %s tests/network-t7-1 < outage-t7-1.txt\n",
+      argv[0]);
+    exit(EXIT_FAILURE);
+  }
+  /* Read the problem in from stdin (outage info) and argv[1] (network info). */
+  FILE *networkFile = fopen(argv[1], "r");
+  assert(networkFile);
+  struct graphProblem *problem = readProblem(stdin, networkFile);
+  assert(fclose(networkFile) == 0);
+
+  /* Find the solution to the problem. */
+  struct solution *solution = findSolution(problem, TASK_7);
+
+  /* Report solution */
+  printf("The critical servers are: ");
+  int i;
+  for(i = 0; i < solution->criticalServerCount; i++){
+    printf("%d", (solution->criticalServerSIDs)[i]);
+    if((i + 1) < solution->criticalServerCount){
+      printf(" ");
+    }
+  }
+  printf("\n");
+
+  freeProblem(problem);
+  freeSolution(solution);
+
+  return 0;
+}
+
+============================================
+src/pq.c
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+pq.c
+
+Unsorted Array Implementation
+
+Implementations for helper functions for priority queue construction and
+manipulation.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 1 2021
+*/
+#include <stdlib.h>
+#include <assert.h>
+
+#define INITIALITEMS 32
+
+struct pq {
+  int count;
+  int allocated;
+  void **queue;
+  int *priorities;
+};
+
+
+struct pq *newPQ(){
+  struct pq *pq = (struct pq *) malloc(sizeof(struct pq));
+  assert(pq);
+  pq->count = 0;
+  pq->allocated = 0;
+  pq->queue = NULL;
+  pq->priorities = NULL;
+  return pq;
+}
+
+void enqueue(struct pq *pq, void *item, int priority){
+  assert(pq);
+  if((pq->count + 1) > pq->allocated){
+    if (pq->allocated == 0){
+      pq->allocated = INITIALITEMS;
+    } else {
+      pq->allocated *= 2;
+    }
+    pq->queue = (void **) realloc(pq->queue, pq->allocated * sizeof(void *));
+    assert(pq->queue);
+    pq->priorities = (int *) realloc(pq->priorities, pq->allocated *
+      sizeof(int));
+    assert(pq->priorities);
+  }
+  (pq->queue)[pq->count] = item;
+  (pq->priorities)[pq->count] = priority;
+  (pq->count)++;
+}
+
+/* Scan through all the priorities linearly and find lowest. */
+void *deletemin(struct pq *pq){
+  int i;
+  int lowestElement = 0;
+  void *returnVal;
+  if (pq->count <= 0){
+    return NULL;
+  }
+  for(i = 0; i < pq->count; i++){
+    if((pq->priorities)[i] < (pq->priorities)[lowestElement]){
+      lowestElement = i;
+    }
+  }
+  returnVal = (pq->queue)[lowestElement];
+  /* Delete item from queue by swapping final item into place of deleted
+    element. */
+  if(pq->count > 0){
+    (pq->priorities)[lowestElement] = (pq->priorities)[pq->count - 1];
+    (pq->queue)[lowestElement] = (pq->queue)[pq->count - 1];
+    (pq->count)--;
+  }
+  return returnVal;
+}
+
+int empty(struct pq *pq){
+  return pq->count == 0;
+}
+
+void freePQ(struct pq *pq){
+  if(! pq) {
+    return;
+  }
+  if(pq->allocated > 0){
+    free(pq->queue);
+    free(pq->priorities);
+  }
+  free(pq);
+}
+============================================
+src/list.c
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+list.c
+
+Implementations for helper functions for linked list construction and
+manipulation.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 1 2021
+*/
+#include "list.h"
+#include <stdlib.h>
+#include <assert.h>
+
+struct list {
+  void *item;
+  struct list *next;
+};
+
+struct list *newlist(void *item){
+  struct list *head = (struct list *) malloc(sizeof(struct list));
+  assert(head);
+  head->item = item;
+  head->next = NULL;
+  return head;
+}
+
+struct list *prependList(struct list *list, void *item){
+  struct list *head = (struct list *) malloc(sizeof(struct list));
+  assert(head);
+  head->item = item;
+  head->next = list;
+  return head;
+}
+
+void *peekHead(struct list *list){
+  if(! list){
+    return NULL;
+  }
+  return list->item;
+}
+
+void *deleteHead(struct list **list){
+  void *item;
+  struct list *next;
+  if(! list || ! *list){
+    return NULL;
+  }
+  /* Store values we're interested in before freeing list node. */
+  item = (*list)->item;
+  next = (*list)->next;
+  free(*list);
+  *list = next;
+  return item;
+}
+
+void freeList(struct list *list){
+  struct list *next;
+  /* Iterate through list until the end of the list (NULL) is reached. */
+  for(next = list; list != NULL; list = next){
+    /* Store next pointer before we free list's space. */
+    next = list->next;
+    free(list);
+  }
+}
+============================================
+src/utils.h
+15:12:44_Wednesday_26_May_2021
+============================================
+/*
+utils.h
+
+Visible structs and functions for helper functions to do with reading and
+writing.
+
+Skeleton written by Grady Fitzpatrick for COMP20007 Assignment 1 2021
+*/
+/* Because we use FILE in this file, we should include stdio.h here. */
+#include <stdio.h>
+/* Because we use struct graph in this file, we should include graph.h here. */
+#include "graph.h"
+/* The problem specified. */
+struct graphProblem;
+
+/* Reads the data from the given file pointer and returns a pointer to this
+information. */
+struct graphProblem *readProblem(FILE *outageFile, FILE *networkFile);
+
+/* Finds a solution for a given problem. */
+struct solution *findSolution(struct graphProblem *problem,
+  enum problemPart part);
+
+/* Frees all data used by problem. */
+void freeProblem(struct graphProblem *problem);
+
