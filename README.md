@@ -1,5 +1,5 @@
 # COMP20007-A2
-## Assignment 1 of COMP20007 Design of Algorithms at University of Melbourne
+## Assignment 2 of COMP20007 Design of Algorithms at University of Melbourne
 
 Created: Semester 1 2021
 
